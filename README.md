@@ -1,2 +1,15 @@
-# Unique-Heap
-Heap that can become max and min heap
+# Universal-Heap
+Heap that can become max and min heap.
+### Автоматизация сборки выполняется засчёт Makefile.
+### Исполнительный файл - main
+В файлах universal_heap.cpp/.h реализован класс UniversalHeap - "Универсальная" куча, которое может менять свое направление на min/max.
+
+В main.cpp продемонстрирован пример работы программы.
+
+Смена направления кучи осуществляется методом change_mode();
+
+Вставка элемента осуществляется методом insert(int key);
+
+Извлечение особого элемента осуществляется методом exctract_special_item();
+
+Получение особого элемента осуществляется методом get_special_item();
